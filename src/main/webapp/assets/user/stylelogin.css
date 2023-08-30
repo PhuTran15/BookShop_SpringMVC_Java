@@ -1,0 +1,301 @@
+
+.loginform{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+
+.clear {
+	clear:both;
+}
+
+
+.content-w3ls {
+	background-color: rgb(105, 100, 93);
+	width:100%;
+	margin:0 auto 50px;
+	padding:0;
+}
+.content-w3ls .content-agile1 {
+    width: 50%;
+    float: left;
+    padding: 25px 0;
+    /* background: url(../images/content.jpg) no-repeat; */
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+h2.agileits1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;
+    text-align: Center;
+    padding: 200px 0 15px;
+    text-transform: uppercase;
+	font-family: 'Monoton', cursive;
+}
+p.agileits2 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.content-w3ls .content-agile2 {
+	width: 50%;
+    float: left;
+    padding: 25px 0 0;
+}
+input#firstname,input#emaillogin,input#password1,input#password2 {
+	width:300px;
+	height:50px;
+	padding:0 15px;
+	color:#fff;
+	font-size:17px;
+	font-weight:200;
+	background-color:transparent;
+	/*-- w3layouts --*/ 
+	border-bottom:5px solid #fff;
+	border-top-color:transparent;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	font-family: 'Raleway', sans-serif;
+	margin:0 auto 20px;
+	display:block;
+	outline:none;
+}
+input#firstname:focus,input#emaillogin:focus,input#password1:focus,input#password2:focus,input#firstname:hover,input#emaillogin:hover,input#password1:hover,input#password2:hover {
+	color:#fff;
+	border-bottom:5px solid #3970b0;
+}
+.loginform input::placeholder {
+color: #fff !important;
+} 
+
+.loginform input:hover::placeholder {
+color: #3970b0 !important;
+} 
+
+.register {
+    width: 235px;
+    margin: 30px auto;
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#3970b0;
+    border-color: transparent;
+    border-radius: 10px;
+	font-family: 'Raleway', sans-serif;
+	transition:all 0.5s ease-in-out;
+	cursor:pointer;
+}
+.register:hover {
+	color: #fff;
+    background-color:#3970b0;
+}
+p.wthree {
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+p.copyright {
+    font-size: 16px;
+    text-align: center;
+    color: #dadada;
+    line-height: 30px;
+    padding: 20px 10px;
+}
+p.copyright a {
+	color:#f15f22;
+}
+p.copyright a:hover {
+	color:#36b051;
+}
+
+@media (max-width:1600px) {
+	h2.agileits1 {
+	padding: 225px 0 15px;	
+	}
+}
+
+@media (max-width: 1366px) {
+h2.agileits1 {
+    padding: 235px 0 15px;
+}
+}
+
+@media (max-width: 1080px) {
+
+.content-w3ls {
+	width:80%;
+	margin: 0 auto 40px;
+}
+p.agileits2 {
+    font-size: 14px;
+}
+p.copyright {
+    font-size: 14px;
+}
+p.wthree {
+    font-size: 14px;
+}
+input#firstname, input#emaillogin, input#password1, input#password2 {
+	font-size:15px;
+}
+}
+
+@media (max-width: 991px) {
+h2.agileits1 {
+    padding: 230px 0 15px;
+}
+.content-w3ls {
+    width: 90%;
+}
+}
+
+@media (max-width: 800px) {
+input#firstname, input#emaillogin, input#password1, input#password2 {
+    width: 260px;
+}
+.register {
+    width: 295px;
+}
+p.agileits2 {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+}
+
+@media (max-width: 768px) {
+h2.agileits1 {
+    padding: 210px 0 15px;
+}
+}
+
+@media (max-width: 736px) {
+.content-w3ls .content-agile1 {
+    width: 100%;
+	height:250px;
+}
+h2.agileits1 {
+    padding: 75px 0 15px;
+}
+.content-w3ls .content-agile2 {
+    width: 100%;
+    padding: 25px 0 30px;
+}
+.content-w3ls {
+    width: 65%;
+}
+}
+
+@media (max-width: 600px) {
+h2.agileits1 {
+    padding: 65px 0 10px;
+}
+}
+
+@media (max-width: 568px) {
+.content-w3ls {
+    width: 70%;
+}
+}
+
+@media (max-width: 480px) {
+h2.agileits1 {
+    font-size: 35px;
+}
+}
+
+@media (max-width: 414px) {
+h1.w3ls {
+    padding: 25px 0;
+    font-size: 30px;
+}
+.content-w3ls {
+    width: 85%;
+	margin: 0 auto 10px;
+}
+}
+
+@media (max-width: 384px) {
+input#firstname, input#emaillogin, input#password1, input#password2 {
+    width: 230px;
+	height: 40px;
+}
+.register {
+    width: 260px;
+	height:45px;
+}
+p.wthree {
+    font-size: 14px;
+    padding: 0 15px 20px;
+    line-height: 30px;
+}
+}
+
+@media (max-width: 375px) {
+h1.w3ls {
+    padding: 25px 0;
+    font-size: 27px;
+}
+h2.agileits1 {
+    font-size: 25px;
+	padding: 43px 0 10px;
+}
+.content-w3ls .content-agile1 {
+    width: 100%;
+    height: 200px;
+}
+}
+
+@media (max-width: 320px) {
+h1.w3ls {
+    padding: 25px 0;
+    font-size: 24px;
+}
+.content-w3ls .content-agile1 {
+    width: 100%;
+    height: 180px;
+}
+h2.agileits1 {
+    font-size: 22px;
+    padding: 37px 0 10px;
+}
+p.agileits2 {
+    font-size: 13px;
+}
+input#firstname, input#emaillogin, input#password1, input#password2 {
+    width: 195px;
+    height: 40px;
+	font-size: 14px;
+}
+.content-w3ls {
+    width: 90%;
+    margin: 0 auto;
+}
+.register {
+    width: 230px;
+    height: 40px;
+	font-size:15px;
+}
+p.wthree {
+    font-size: 13px;
+    padding: 0 15px 15px;
+}
+p.copyright {
+    font-size: 13px;
+}
+}
